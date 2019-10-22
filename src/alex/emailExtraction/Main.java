@@ -7,13 +7,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 public class Main {
 
-    static final String PATTERN = "[a-zA-Z.'_%+-]+@([a-zA-Z.'_%+-]+\\.(?:[a-zA-Z]{2,3}|[a-zA-Z]{2}\\.[a-zA-Z]{2}))";
-    public static final String TEXT_SAMPLE_TXT = "text\\sample.txt";
-    public static final String SPLIT_WORDS = "(?: |\\r\\n)";
+    private static final String PATTERN = "[a-zA-Z.'_%+-]+@([a-zA-Z.'_%+-]+\\.(?:[a-zA-Z]{2,3}|[a-zA-Z]{2}\\.[a-zA-Z]{2}))";
+    private static final String TEXT_SAMPLE_TXT = "text\\sample.txt";
+    private static final String SPLIT_WORDS = "(?: |\\r\\n)";
 
     public static void main(String[] args) throws IOException {
         Options rules = new Options(args);
@@ -44,6 +43,4 @@ public class Main {
                 .limit(10)
                 .forEach(System.out::println);
     }
-
-
 }
