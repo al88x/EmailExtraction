@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="062571f5-73d0-45f8-baff-0ef8cd8eb7e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EmailExtraction/alex/emailExtraction/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EmailExtraction/alex/emailExtraction/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/alex/emailExtraction/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/alex/emailExtraction/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571737384065</updated>
-      <workItem from="1571737391983" duration="1873000" />
+      <workItem from="1571737391983" duration="3972000" />
     </task>
     <servers />
   </component>
